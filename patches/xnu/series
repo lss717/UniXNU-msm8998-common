@@ -1,0 +1,2 @@
+# Shared MSM8998 XNU patches, one path per line in application order.
+# Empty is valid: no patch has yet been classified as MSM8998-wide.
