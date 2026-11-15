@@ -10,58 +10,58 @@
 
         cpu@0 {
             device_type = "cpu";
-            compatible = "arm,cortex-a53";
+            compatible = "arm,cortex-a73";
             reg = <0x0>;
-            unixnu,cluster-type = "E";
+            unixnu,cluster-type = "P";
         };
 
         cpu@1 {
             device_type = "cpu";
-            compatible = "arm,cortex-a53";
+            compatible = "arm,cortex-a73";
             reg = <0x1>;
-            unixnu,cluster-type = "E";
+            unixnu,cluster-type = "P";
         };
 
         cpu@2 {
             device_type = "cpu";
-            compatible = "arm,cortex-a53";
+            compatible = "arm,cortex-a73";
             reg = <0x2>;
-            unixnu,cluster-type = "E";
+            unixnu,cluster-type = "P";
         };
 
         cpu@3 {
             device_type = "cpu";
-            compatible = "arm,cortex-a53";
+            compatible = "arm,cortex-a73";
             reg = <0x3>;
-            unixnu,cluster-type = "E";
+            unixnu,cluster-type = "P";
         };
 
         cpu@100 {
             device_type = "cpu";
-            compatible = "arm,cortex-a73";
+            compatible = "arm,cortex-a53";
             reg = <0x100>;
-            unixnu,cluster-type = "P";
+            unixnu,cluster-type = "E";
         };
 
         cpu@101 {
             device_type = "cpu";
-            compatible = "arm,cortex-a73";
+            compatible = "arm,cortex-a53";
             reg = <0x101>;
-            unixnu,cluster-type = "P";
+            unixnu,cluster-type = "E";
         };
 
         cpu@102 {
             device_type = "cpu";
-            compatible = "arm,cortex-a73";
+            compatible = "arm,cortex-a53";
             reg = <0x102>;
-            unixnu,cluster-type = "P";
+            unixnu,cluster-type = "E";
         };
 
         cpu@103 {
             device_type = "cpu";
-            compatible = "arm,cortex-a73";
+            compatible = "arm,cortex-a53";
             reg = <0x103>;
-            unixnu,cluster-type = "P";
+            unixnu,cluster-type = "E";
         };
     };
 

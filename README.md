@@ -17,7 +17,8 @@ without claiming runtime support:
 | DWC3 controller | `0xa800000`, `0xcd00` | Linux `msm8998.dtsi` |
 
 Micro-architecture strings are intentionally conservative: XNU currently uses
-`arm,cortex-a53` and `arm,cortex-a73` for the two clusters. The vendor
+`arm,cortex-a73` for MPIDR `0..3` and `arm,cortex-a53` for MPIDR
+`0x100..0x103`, matching the verified cheeseburger format 1 ADT. The vendor
 `qcom,kryo280` identity remains recorded rather than being dropped.
 
 The repository is a migration skeleton. It does not establish that the UFS,
